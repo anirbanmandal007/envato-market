@@ -1,0 +1,113 @@
+<section id="work" class="work-area section-gap">
+    <div class="container">
+        <div class="row d-flex justify-content-between align-items-end mb-50">
+            <div class="col-lg-6">
+                <div class="section-title">
+                    <h2>Latest Works</h2>
+                    <p>
+                        It is a long established fact that a reader will be distracted by
+                        the readable content of a page when looking at its layout.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="filters">
+                    <ul>
+                        <li data-filter=".all" class="active">All Categories</li>
+                        <li data-filter=".branding">Branding</li>
+                        <li data-filter=".creative">Creative Work</li>
+                        <li data-filter=".web-design">Web Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="filters-content">
+            <div class="row grid" style="position: relative;">
+                <ngx-masonry-gallery [width]="400" [images]="images"></ngx-masonry-gallery>
+
+                <!-- <div data-wow-duration="2s" class="single-work col-lg-4 col-md-6 col-sm-12 all creative wow fadeInUp"
+                    style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp; position: absolute; left: 0%; top: 0px;">
+                    <div class="relative">
+                        <div class="thumb">
+                            <div class="overlay overlay-bg transition"></div> <img src="https://karmen-vue.netlify.app/assets/img/work/w1.jpg"
+                                alt="work" class="image transition img-fluid">
+                        </div>
+                        <div class="middle transition">
+                            <h4>Video Editing</h4>
+                            <div class="cat">Video Product</div>
+                        </div> <a href="https://karmen-vue.netlify.app/assets/img/work/w1.jpg" class="overlay portfolio-lightbox transition"></a>
+                    </div>
+                </div>
+                <div data-wow-duration="2s" data-wow-delay="0.2s"
+                    class="single-work col-lg-4 col-md-6 col-sm-12 all web-design branding wow fadeInUp"
+                    style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInUp; position: absolute; left: 33.3333%; top: 0px;">
+                    <div class="relative">
+                        <div class="thumb">
+                            <div class="overlay overlay-bg transition"></div> <img src="https://karmen-vue.netlify.app/assets/img/work/w2.jpg"
+                                alt="work" class="image transition img-fluid">
+                        </div>
+                        <div class="middle transition">
+                            <h4>Ui / Ux</h4>
+                            <div class="cat">Web Design</div>
+                        </div> <a href="https://karmen-vue.netlify.app/assets/img/work/w2.jpg" class="overlay portfolio-lightbox transition"></a>
+                    </div>
+                </div>
+                <div data-wow-duration="2s" data-wow-delay="0.4s"
+                    class="single-work col-lg-4 col-md-6 col-sm-12 all branding web-design wow fadeInUp"
+                    style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: fadeInUp; position: absolute; left: 66.6667%; top: 0px;">
+                    <div class="relative">
+                        <div class="thumb">
+                            <div class="overlay overlay-bg transition"></div> <img src="https://karmen-vue.netlify.app/assets/img/work/w3.jpg"
+                                alt="work" class="image transition img-fluid">
+                        </div>
+                        <div class="middle transition">
+                            <h4>Creative Shot</h4>
+                            <div class="cat">Photography</div>
+                        </div> <a href="https://karmen-vue.netlify.app/assets/img/work/w3.jpg" class="overlay portfolio-lightbox transition"></a>
+                    </div>
+                </div>
+                <div data-wow-duration="2s" data-wow-delay="0.6s"
+                    class="single-work col-lg-4 col-md-6 col-sm-12 all web-design wow fadeInUp"
+                    style="visibility: visible; animation-duration: 2s; animation-delay: 0.6s; animation-name: fadeInUp; position: absolute; left: 66.6667%; top: 359px;">
+                    <div class="relative">
+                        <div class="thumb">
+                            <div class="overlay overlay-bg transition"></div> <img src="https://karmen-vue.netlify.app/assets/img/work/w6.jpg"
+                                alt="work" class="image transition img-fluid">
+                        </div>
+                        <div class="middle transition">
+                            <h4>Creative Design</h4>
+                            <div class="cat">Unique design</div>
+                        </div> <a href="https://karmen-vue.netlify.app/assets/img/work/w6.jpg" class="overlay portfolio-lightbox transition"></a>
+                    </div>
+                </div>
+                <div data-wow-duration="2s" class="single-work col-lg-4 col-md-6 col-sm-12 all creative wow fadeInUp"
+                    style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp; position: absolute; left: 0%; top: 388px;">
+                    <div class="relative">
+                        <div class="thumb">
+                            <div class="overlay overlay-bg transition"></div> <img src="https://karmen-vue.netlify.app/assets/img/work/w4.jpg"
+                                alt="work" class="image transition img-fluid">
+                        </div>
+                        <div class="middle transition">
+                            <h4>Web Design</h4>
+                            <div class="cat">Onepage Project</div>
+                        </div> <a href="https://karmen-vue.netlify.app/assets/img/work/w4.jpg" class="overlay portfolio-lightbox transition"></a>
+                    </div>
+                </div>
+                <div data-wow-duration="2s" data-wow-delay="0.2s"
+                    class="single-work col-lg-4 col-md-6 col-sm-12 all branding wow fadeInUp"
+                    style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInUp; position: absolute; left: 33.3333%; top: 437px;">
+                    <div class="relative">
+                        <div class="thumb">
+                            <div class="overlay overlay-bg transition"></div> <img src="https://karmen-vue.netlify.app/assets/img/work/w5.jpg"
+                                alt="work" class="image transition img-fluid">
+                        </div>
+                        <div class="middle transition">
+                            <h4>Brand Design</h4>
+                            <div class="cat">Brand Logo Project</div>
+                        </div> <a href="https://karmen-vue.netlify.app/assets/img/work/w5.jpg" class="overlay portfolio-lightbox transition"></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</section>
